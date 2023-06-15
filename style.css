@@ -1,0 +1,33 @@
+*{
+    margin: 4;
+    padding: 9;
+}
+
+
+.cabecalho {
+    background-color: rgb(97, 228, 107);
+    color: rgb(255, 255, 190);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px; 
+    font-size: 24px;
+}
+.cabecalho-imagem {
+    width: 200px;
+    height: 200px;
+}
+.cabecalho-item {
+    display: inline-block;
+}
+.Rodape{
+    background-color: rgb(66, 209, 102);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.Equipe-pedagogica { 
+    display: grid;
+    grid-template-columns: 33,3% 33,3% 33,3%;
+    background-color: rgb(255, 255, 209);
+    padding: 0px;
+    margin: 2px;
+}
